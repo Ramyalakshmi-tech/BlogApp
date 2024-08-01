@@ -24,9 +24,10 @@ public class CommentServiceImpl implements CommentService {
     private ModelMapper mapper;
 
     @Autowired
-    public CommentServiceImpl(CommentRepository commentRepository, PostRepository postRepository) {
+    public CommentServiceImpl(CommentRepository commentRepository, PostRepository postRepository,ModelMapper mapper) {
         this.commentRepository = commentRepository;
         this.postRepository = postRepository;
+        this.mapper=mapper;
     }
 
     @Override

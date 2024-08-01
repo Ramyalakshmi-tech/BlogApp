@@ -26,6 +26,7 @@ public class PostServiceImpl implements PostService {
     private final PostRepository postRepository;
     private final ModelMapper mapper;
 
+
     @Autowired
     public PostServiceImpl(PostRepository postRepository, ModelMapper mapper) {
         this.postRepository = postRepository;
@@ -50,7 +51,7 @@ public class PostServiceImpl implements PostService {
         Page<Post> posts = postRepository.findAll(pageable);
         List<Post> listOfPosts = posts.getContent();
 
-        List<PostDto> content = listOfPosts.stream().map(this::mapToDto).collect(Collectors.toList());
+        List<PostDto> content = listOfPosts.stream().map(post -> mapToDto(post)).collect(Collectors.toList());
 
         PostResponse postResponse = new PostResponse();
         postResponse.setContent(content);
