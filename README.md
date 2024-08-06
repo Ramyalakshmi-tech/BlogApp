@@ -65,20 +65,31 @@ API Endpoints
 Blog Posts:
 
 GET /api/posts - List all posts.
+
 POST /api/posts - Create a new post.
+
 GET /api/posts/{id} - Get a post by ID.
+
 PUT /api/posts/{id} - Update a post.
+
 DELETE /api/posts/{id} - Delete a post.
+
 Authentication:
 
 POST /api/auth/signup - Register a new user.
+
 POST /api/auth/login - Login and get a JWT token.
+
 Pagination and Sorting:
 
 GET /api/posts?page=0&size=10&sort=title,desc - Paginated and sorted posts.
 
 Contact
+
 Author: Ramyalakshmi.M
+
 Email: ramyagandhi16@gmail.com
+
 GitHub:  https://github.com/Ramyalakshmi-tech/BlogApp.git
+
 
