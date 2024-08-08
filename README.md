@@ -1,3 +1,5 @@
+Blog App API
+
 Overview
 
 The Blog App API is a comprehensive blogging platform developed using Spring Boot, Spring Security, JWT, Spring Data JPA (Hibernate), and MySQL. This application serves as a robust demonstration of building RESTful APIs with essential functionalities, providing a seamless experience for managing blog content and user authentication. The project showcases the integration of modern security practices, efficient data handling, and scalable architecture.
