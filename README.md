@@ -6,7 +6,7 @@ The Blog App API is a comprehensive blogging platform developed using Spring Boo
 
 ## Features
 
-1.**Posting and Commenting**
+1. **Posting and Commenting**
 
 Blog Post Management:
 
