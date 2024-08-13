@@ -1,12 +1,12 @@
-Blog App API
+# Blog App API
 
-Overview
+## Overview
 
 The Blog App API is a comprehensive blogging platform developed using Spring Boot, Spring Security, JWT, Spring Data JPA (Hibernate), and MySQL. This application serves as a robust demonstration of building RESTful APIs with essential functionalities, providing a seamless experience for managing blog content and user authentication. The project showcases the integration of modern security practices, efficient data handling, and scalable architecture.
 
-Features
+## Features
 
-Posting and Commenting
+1. **Posting** and Commenting
 
 Blog Post Management:
 
@@ -18,7 +18,7 @@ Update: Modify existing posts.
 
 Delete: Remove posts.
 
-Comment Management:
+ Comment Management:
 
 Add Comments: Users can comment on blog posts.
 
@@ -28,13 +28,13 @@ Delete Comments: Remove comments when needed.
 
 Authentication and Authorization
 
-User Management:
+### User Management:
 
 Signup: Register new users with secure credentials.
 Login: Authenticate users and issue JWT tokens.
 Role-Based Access Control: Implement different access levels based on user roles.
 
-Secure APIs:
+### Secure APIs:
 
 JWT Integration: Use JSON Web Tokens for secure API access.
 Spring Security: Enforce authentication and authorization across the application.
